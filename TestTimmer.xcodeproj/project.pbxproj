@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABB18651DB717070007173C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABB18641DB717070007173C /* main.m */; };
+		CABB18681DB717070007173C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABB18671DB717070007173C /* AppDelegate.m */; };
+		CABB186B1DB717070007173C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABB186A1DB717070007173C /* ViewController.m */; };
+		CABB186E1DB717070007173C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABB186C1DB717070007173C /* Main.storyboard */; };
+		CABB18701DB717070007173C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABB186F1DB717070007173C /* Assets.xcassets */; };
+		CABB18731DB717070007173C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABB18711DB717070007173C /* LaunchScreen.storyboard */; };
+		CABB187E1DB717070007173C /* TestTimmerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABB187D1DB717070007173C /* TestTimmerTests.m */; };
+		CABB18891DB717070007173C /* TestTimmerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABB18881DB717070007173C /* TestTimmerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABB187A1DB717070007173C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABB18581DB717070007173C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABB185F1DB717070007173C;
+			remoteInfo = TestTimmer;
+		};
+		CABB18851DB717070007173C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABB18581DB717070007173C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABB185F1DB717070007173C;
+			remoteInfo = TestTimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABB18601DB717070007173C /* TestTimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABB18641DB717070007173C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CABB18661DB717070007173C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CABB18671DB717070007173C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CABB18691DB717070007173C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CABB186A1DB717070007173C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CABB186D1DB717070007173C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABB186F1DB717070007173C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABB18721DB717070007173C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABB18741DB717070007173C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABB18791DB717070007173C /* TestTimmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTimmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABB187D1DB717070007173C /* TestTimmerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTimmerTests.m; sourceTree = "<group>"; };
+		CABB187F1DB717070007173C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABB18841DB717070007173C /* TestTimmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTimmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABB18881DB717070007173C /* TestTimmerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTimmerUITests.m; sourceTree = "<group>"; };
+		CABB188A1DB717070007173C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABB185D1DB717070007173C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABB18761DB717070007173C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABB18811DB717070007173C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABB18571DB717070007173C = {
+			isa = PBXGroup;
+			children = (
+				CABB18621DB717070007173C /* TestTimmer */,
+				CABB187C1DB717070007173C /* TestTimmerTests */,
+				CABB18871DB717070007173C /* TestTimmerUITests */,
+				CABB18611DB717070007173C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABB18611DB717070007173C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABB18601DB717070007173C /* TestTimmer.app */,
+				CABB18791DB717070007173C /* TestTimmerTests.xctest */,
+				CABB18841DB717070007173C /* TestTimmerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABB18621DB717070007173C /* TestTimmer */ = {
+			isa = PBXGroup;
+			children = (
+				CABB18661DB717070007173C /* AppDelegate.h */,
+				CABB18671DB717070007173C /* AppDelegate.m */,
+				CABB18691DB717070007173C /* ViewController.h */,
+				CABB186A1DB717070007173C /* ViewController.m */,
+				CABB186C1DB717070007173C /* Main.storyboard */,
+				CABB186F1DB717070007173C /* Assets.xcassets */,
+				CABB18711DB717070007173C /* LaunchScreen.storyboard */,
+				CABB18741DB717070007173C /* Info.plist */,
+				CABB18631DB717070007173C /* Supporting Files */,
+			);
+			path = TestTimmer;
+			sourceTree = "<group>";
+		};
+		CABB18631DB717070007173C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABB18641DB717070007173C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABB187C1DB717070007173C /* TestTimmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABB187D1DB717070007173C /* TestTimmerTests.m */,
+				CABB187F1DB717070007173C /* Info.plist */,
+			);
+			path = TestTimmerTests;
+			sourceTree = "<group>";
+		};
+		CABB18871DB717070007173C /* TestTimmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABB18881DB717070007173C /* TestTimmerUITests.m */,
+				CABB188A1DB717070007173C /* Info.plist */,
+			);
+			path = TestTimmerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABB185F1DB717070007173C /* TestTimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABB188D1DB717070007173C /* Build configuration list for PBXNativeTarget "TestTimmer" */;
+			buildPhases = (
+				CABB185C1DB717070007173C /* Sources */,
+				CABB185D1DB717070007173C /* Frameworks */,
+				CABB185E1DB717070007173C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTimmer;
+			productName = TestTimmer;
+			productReference = CABB18601DB717070007173C /* TestTimmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABB18781DB717070007173C /* TestTimmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABB18901DB717070007173C /* Build configuration list for PBXNativeTarget "TestTimmerTests" */;
+			buildPhases = (
+				CABB18751DB717070007173C /* Sources */,
+				CABB18761DB717070007173C /* Frameworks */,
+				CABB18771DB717070007173C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABB187B1DB717070007173C /* PBXTargetDependency */,
+			);
+			name = TestTimmerTests;
+			productName = TestTimmerTests;
+			productReference = CABB18791DB717070007173C /* TestTimmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABB18831DB717070007173C /* TestTimmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABB18931DB717070007173C /* Build configuration list for PBXNativeTarget "TestTimmerUITests" */;
+			buildPhases = (
+				CABB18801DB717070007173C /* Sources */,
+				CABB18811DB717070007173C /* Frameworks */,
+				CABB18821DB717070007173C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABB18861DB717070007173C /* PBXTargetDependency */,
+			);
+			name = TestTimmerUITests;
+			productName = TestTimmerUITests;
+			productReference = CABB18841DB717070007173C /* TestTimmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABB18581DB717070007173C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ivy;
+				TargetAttributes = {
+					CABB185F1DB717070007173C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D975HMHLA6;
+						ProvisioningStyle = Automatic;
+					};
+					CABB18781DB717070007173C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABB185F1DB717070007173C;
+					};
+					CABB18831DB717070007173C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABB185F1DB717070007173C;
+					};
+				};
+			};
+			buildConfigurationList = CABB185B1DB717070007173C /* Build configuration list for PBXProject "TestTimmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABB18571DB717070007173C;
+			productRefGroup = CABB18611DB717070007173C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABB185F1DB717070007173C /* TestTimmer */,
+				CABB18781DB717070007173C /* TestTimmerTests */,
+				CABB18831DB717070007173C /* TestTimmerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABB185E1DB717070007173C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABB18731DB717070007173C /* LaunchScreen.storyboard in Resources */,
+				CABB18701DB717070007173C /* Assets.xcassets in Resources */,
+				CABB186E1DB717070007173C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABB18771DB717070007173C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABB18821DB717070007173C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABB185C1DB717070007173C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABB186B1DB717070007173C /* ViewController.m in Sources */,
+				CABB18681DB717070007173C /* AppDelegate.m in Sources */,
+				CABB18651DB717070007173C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABB18751DB717070007173C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABB187E1DB717070007173C /* TestTimmerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABB18801DB717070007173C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABB18891DB717070007173C /* TestTimmerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABB187B1DB717070007173C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABB185F1DB717070007173C /* TestTimmer */;
+			targetProxy = CABB187A1DB717070007173C /* PBXContainerItemProxy */;
+		};
+		CABB18861DB717070007173C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABB185F1DB717070007173C /* TestTimmer */;
+			targetProxy = CABB18851DB717070007173C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABB186C1DB717070007173C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABB186D1DB717070007173C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABB18711DB717070007173C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABB18721DB717070007173C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABB188B1DB717070007173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CABB188C1DB717070007173C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABB188E1DB717070007173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D975HMHLA6;
+				INFOPLIST_FILE = TestTimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestTimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CABB188F1DB717070007173C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D975HMHLA6;
+				INFOPLIST_FILE = TestTimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestTimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CABB18911DB717070007173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestTimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestTimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTimmer.app/TestTimmer";
+			};
+			name = Debug;
+		};
+		CABB18921DB717070007173C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestTimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestTimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTimmer.app/TestTimmer";
+			};
+			name = Release;
+		};
+		CABB18941DB717070007173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestTimmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestTimmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestTimmer;
+			};
+			name = Debug;
+		};
+		CABB18951DB717070007173C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestTimmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestTimmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestTimmer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABB185B1DB717070007173C /* Build configuration list for PBXProject "TestTimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABB188B1DB717070007173C /* Debug */,
+				CABB188C1DB717070007173C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABB188D1DB717070007173C /* Build configuration list for PBXNativeTarget "TestTimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABB188E1DB717070007173C /* Debug */,
+				CABB188F1DB717070007173C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABB18901DB717070007173C /* Build configuration list for PBXNativeTarget "TestTimmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABB18911DB717070007173C /* Debug */,
+				CABB18921DB717070007173C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABB18931DB717070007173C /* Build configuration list for PBXNativeTarget "TestTimmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABB18941DB717070007173C /* Debug */,
+				CABB18951DB717070007173C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABB18581DB717070007173C /* Project object */;
+}
